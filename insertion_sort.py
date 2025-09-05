@@ -32,14 +32,32 @@ def insertion_sort_desc(arr):
 
 
 if __name__ == "__main__":
-    # Sample input list
-    numbers = [12, 11, 13, 5, 6]
+    # Test Case 1
+    numbers1 = [12, 11, 13, 5, 6]
+    print("Original:", numbers1)
+    print("Sorted (Descending):", insertion_sort_desc(numbers1))
 
-    # Print the original list
-    print("Original:", numbers)
+    # Test Case 2: Already sorted in descending order
+    numbers2 = [50, 40, 30, 20, 10]
+    print("\nOriginal:", numbers2)
+    print("Sorted (Descending):", insertion_sort_desc(numbers2))
 
-    # Sort the list in descending order
-    sorted_numbers = insertion_sort_desc(numbers)
+    # Test Case 3: Sorted in ascending order
+    numbers3 = [1, 2, 3, 4, 5]
+    print("\nOriginal:", numbers3)
+    print("Sorted (Descending):", insertion_sort_desc(numbers3))
 
-    # Print the sorted result
-    print("Sorted (Descending):", sorted_numbers)
+    # Test Case 4: Contains duplicate values
+    numbers4 = [10, 20, 20, 5, 30, 10]
+    print("\nOriginal:", numbers4)
+    print("Sorted (Descending):", insertion_sort_desc(numbers4))
+
+    # Test Case 5: Single element
+    numbers5 = [99]
+    print("\nOriginal:", numbers5)
+    print("Sorted (Descending):", insertion_sort_desc(numbers5))
+
+    # Test Case 6: Empty list
+    numbers6 = []
+    print("\nOriginal:", numbers6)
+    print("Sorted (Descending):", insertion_sort_desc(numbers6))
