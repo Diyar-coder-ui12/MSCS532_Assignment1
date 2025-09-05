@@ -1,8 +1,4 @@
-# Insertion Sort in Descending Order
-# Author: [Your Name]
-# Course: MSCS532 - Assignment 1
-# Description: This program implements the Insertion Sort algorithm
-#              that sorts a list in monotonically decreasing order.
+
 
 def insertion_sort_desc(arr):
     """
